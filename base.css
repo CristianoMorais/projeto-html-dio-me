@@ -40,6 +40,8 @@ fieldset {
     padding: 20px;
 }
 .footer {
+    display: flex;
+    flex-flow: row;
     background-color: rgb(99, 56, 240);
     min-height: 150px;
 }

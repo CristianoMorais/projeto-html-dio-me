@@ -42,6 +42,7 @@ fieldset {
 .footer {
     display: flex;
     flex-flow: row;
+    justify-content: space-around;
     background-color: rgb(99, 56, 240);
     min-height: 150px;
 }

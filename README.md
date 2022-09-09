@@ -1,2 +1,11 @@
-# desafio_de_projeto_dio_html-II
-Desenvolvido para o Desafio de Projeto da DIO: "Criando seu primeiro site completo com HTML", como parte da Formação HTML Web Developer
+<h1 align="center"> Projeto-HTML-DIO.ME </h1>
+<hr>
+<p>Projeto referente a estudos relacionados a princípios básicos de HTML da DIO.ME</p>
+
+<p>
+A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura completa em html com mínimo de css possível</p>
+
+
+<p>Web site completo projeto Dio.me</p>
+
+<h2>Author Cristiano Magno de Morais</h2>

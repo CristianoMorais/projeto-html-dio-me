@@ -3,10 +3,19 @@ html, body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
 }
 
 fieldset {
@@ -14,21 +23,32 @@ fieldset {
     width: 9rem;
 }
 
+
 .wrapper {
     width: 1200px;
     display: flex;
-    margin: 0 auto;
-    background-color: aquamarine;
+    margin: 0 auto; 
 }
+
+.logo{
+    padding-bottom: 30px ;
+}
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
+.form-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    padding: 20px 10px 20px 30px;
 }
 .header {
     background-color: rgb(5, 108, 108);
@@ -43,6 +63,87 @@ fieldset {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    background-color: rgb(99, 56, 240);
     min-height: 150px;
+    padding-bottom: 10px;
+}
+
+.form-cad-button{
+    padding: 5px;
+}
+
+.button-cadastrese {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.atendimento {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.text-atendimento {
+    text-align: center;
+}
+
+
+/*CSS para o formulário*/
+
+.formulario{
+    width: auto;
+    padding: 0 30px 5px 30px;
+    border:1px solid #ccc;
+}
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
 }

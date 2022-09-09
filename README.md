@@ -6,6 +6,6 @@
 A ideia deste Desafio de Projeto é elaborar um website, utilizando uma estrutura completa em html com mínimo de css possível</p>
 
 
-<p>Web site completo projeto Dio.me</p>
+<p>Web site completo projeto Dio.me com o nome de DIO CARE PETS</p>
 
 <h2>Author Cristiano Magno de Morais</h2>
